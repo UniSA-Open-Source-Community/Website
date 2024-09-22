@@ -30,11 +30,12 @@ The same will apply for assets, however the file extension will need to be provi
 
 ## Backend Structure
 
-`app.js` - Main file to be run.  
-`web.js` or `site.js` - Main routes for the website
+`app.js` - The main file, contains all the webserver config and main routes.
 
 Routes will be split into different files, for example:  
 `/event` and every subroute may be split into `routes/event.js`
+
+`config.json` - Any configurable settings will go in here.
 
 ## Development
 
