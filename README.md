@@ -5,6 +5,14 @@ Developed using Node.js v20.9.0
 
 I'm proposing that this be our backend, and am creating this as a new branch as to not interfere with existing code.
 
+## Running the Server
+
+Prerequisites:
+- Node.js (at least v20.9.0) installed
+
+1. Ensure you have installed the required libraries/modules (type `npm install` in command prompt in the directory, it will get packages from `package.json`)
+2. Start the server by running `node app.js` - if on windows, I recommend creating a batch script to do this, as you may be needing to restart it alot.
+
 ## General Project Structure
 
 It is important that we stick to this structure, as this is how it will be configured to send files in the backend. 
