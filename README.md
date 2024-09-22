@@ -22,6 +22,8 @@ It is important that we stick to this structure, as this is how it will be confi
 `public/css/` - Where all the frontend css should be placed.  
 `public/assets` - Where assets (images, etc) should be placed.  
 
+`docs/` - Documentation
+
 ### Referencing js/css/assets
 To import js/css files, the source should be `/public/js/...` and a file extension can be provided, but should not be necessary.  
 The same will apply for assets, however the file extension will need to be provided, as it can be many different things.
