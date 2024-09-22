@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#nav-bar {
+    display: block;
+    padding: 25px;
+    margin: 0;
+    background-color: aqua;
+    position: fixed;
+    left: 0;
+    right: 0;
+
+    a{
+        color: black;
+        text-decoration: none;
+        /* Fonts to use: archityle ballmer, TT lakes neue */
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 150%;
+        overflow: hidden;
+        justify-content: center;
+        padding: 100px;
+        margin-top: 5px;
+    }
+}
+
+.container {
+    img{
+        margin: 0 auto;
+    }
+}
+
+
+
+body {
+    background-color: rgb(44,44,44);
+    color: azure;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    h1 {
+        text-align: center;
+        font-size: 32px;
+        font-weight: bold;
+        margin: 25px;
+    }
+
+    p {
+        font-size: 18px;
+        font-style: italic;
+        margin: 20px;
+    }
+
+    #events {
+        p {
+            max-width: 50%;
+        }
+    }
+}
+
