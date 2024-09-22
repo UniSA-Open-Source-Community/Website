@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "ejs": "^3.1.10",
+    "express": "^4.21.0"
+  },
+  "name": "upc-club-website",
+  "description": "Created using [express.js](https://expressjs.com/) in [node.js](https://nodejs.org/en)  \r Developed using Node.js v20.9.0",
+  "version": "0.0.1",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UniSA-Programming-Community/Website.git"
+  },
+  "keywords": [
+    "unisa"
+  ],
+  "author": "...",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UniSA-Programming-Community/Website/issues"
+  },
+  "homepage": "https://github.com/UniSA-Programming-Community/Website#readme"
+}
