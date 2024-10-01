@@ -4,12 +4,15 @@
     box-sizing: border-box;
 }
 
+/* cyan - #62e1e9
+blue - #0652e9
+purple - #8603fa */
 
 #nav-bar {
     display: block;
     padding: 25px;
     margin: 0;
-    background-color: aqua;
+    background-color: #62e1e9;
     position: fixed;
     left: 0;
     right: 0;
@@ -22,41 +25,100 @@
         font-size: 150%;
         overflow: hidden;
         justify-content: center;
-        padding: 100px;
+        padding-left: 100px;
+        padding-right: 100px;
         margin-top: 5px;
     }
-}
 
-.container {
-    img{
-        margin: 0 auto;
+    a:hover{
+        color: white;
     }
 }
-
-
 
 body {
     background-color: rgb(44,44,44);
-    color: azure;
+    color: white;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
-    h1 {
-        text-align: center;
-        font-size: 32px;
-        font-weight: bold;
-        margin: 25px;
-    }
-
-    p {
-        font-size: 18px;
-        font-style: italic;
-        margin: 20px;
-    }
-
-    #events {
-        p {
-            max-width: 50%;
-        }
-    }
 }
 
+h1 {
+    text-align: left;
+    font-size: 64px;
+    font-weight: bold;
+    margin: 15px;
+    margin-bottom: 5px;
+}
+
+p {
+    font-size: 18px;
+    font-style: italic;
+    margin: 20px;
+}
+
+#events {
+    p {
+        display:inline-block;margin-right:10px;
+        max-width: 50%;
+        text-align: justify;
+    }
+
+    .upcoming{
+        padding-top: 0;
+        caption-side: top;
+        
+        
+    }
+    .next-event {
+        display:inline-block; 
+        background-color:#0652e9;
+        max-width: 20%;
+        border-radius: 15px;
+        justify-content: center;
+        text-align: center;
+        margin-right: 10px;
+
+    }
+    
+    .next-event:hover {
+        background-color: #8603fa;
+    }
+
+    .event-archive {
+
+        margin-left: 20px;
+
+        h2{
+            font-size: 2em;
+            display: flex;
+        }
+
+        h3{
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-bottom: 10px;
+            /* margin-left: 10px; */
+        }
+
+        .event {
+            display:inline-block; 
+            background-color:#0652e9;
+            width: auto;
+            max-width: 50%;
+            border-radius: 15px;
+            justify-content: center;
+            text-align: center;
+            margin-right: 10px;
+            padding: 50px;
+            padding-top: 100px;
+            padding-bottom: 100px;
+        }
+
+    }
+
+}
+
+
+/* An idea for the events section is to display an infinite horizontal scrolling part
+for the upcoming events. It takes the data from a seperate database and displays the information
+*/
